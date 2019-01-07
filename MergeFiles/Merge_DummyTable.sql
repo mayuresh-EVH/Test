@@ -112,6 +112,7 @@ SELECT 98 AS Id, 'Meredith' AS Name, ' 1-321-199-7743' AS PhoneNumber, ' Kapolei
 SELECT 99 AS Id, 'Ivory' AS Name, ' 1-389-296-7131' AS PhoneNumber, ' Orsara di Puglia' AS City UNION ALL
 
 
+
  BEGIN TRY
 	
 	BEGIN TRANSACTION
