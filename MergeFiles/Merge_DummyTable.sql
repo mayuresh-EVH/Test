@@ -9,7 +9,7 @@ CREATE TABLE #DummyTable
 	PhoneNumber			varchar(100) NOT NULL,
 	[City]		varchar(255) NOT NULL
 )
-INSERT #DummyTable ([Id], [Name], [PhoneNumber], [City])
+INSERT INTO #DummyTable ([Id], [Name], [PhoneNumber], [City])
 
 SELECT 1 AS Id, 'Kiayada' AS Name, ' 1-542-409-6032' AS PhoneNumber, ' Hyères' AS City UNION ALL
 SELECT 2 AS Id, 'Risa' AS Name, ' 369-5600' AS PhoneNumber, ' Titagarh' AS City UNION ALL
