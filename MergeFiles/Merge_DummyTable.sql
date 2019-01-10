@@ -11,8 +11,8 @@ CREATE TABLE #DummyTable
 )
 INSERT INTO #DummyTable ([Id], [Name], [PhoneNumber], [City])
 
-SELECT 1 AS Id, 'Kiayada' AS Name, ' 1-542-409-6032' AS PhoneNumber, ' Hyères , New York' AS City UNION ALL
-SELECT 2 AS Id, 'Risa' AS Name, ' 369-5600' AS PhoneNumber, ' Titagarh' AS City UNION ALL
+SELECT 1 AS Id, 'Kiayada' AS Name, ' 1-542-409-6032' AS PhoneNumber, ' Hyères' AS City UNION ALL
+SELECT 2 AS Id, 'Risa' AS Name, ' 369-5600' AS PhoneNumber, ' Titagarh , New York' AS City UNION ALL
 SELECT 3 AS Id, 'Sacha' AS Name, ' 1-210-484-7643' AS PhoneNumber, ' Hualaihué' AS City UNION ALL
 SELECT 4 AS Id, 'Teaga' AS Name, ' 364-6577' AS PhoneNumber, ' Paradise' AS City UNION ALL
 SELECT 5 AS Id, 'Gail' AS Name, ' 868-1524' AS PhoneNumber, ' Moio Alcantara' AS City UNION ALL
