@@ -108,9 +108,15 @@ SELECT 94 AS Id, 'Lacey' AS Name, ' 361-8149' AS PhoneNumber, ' Noduwez' AS City
 SELECT 95 AS Id, 'Lesley' AS Name, ' 1-229-157-7490' AS PhoneNumber, ' Würzburg' AS City UNION ALL
 SELECT 96 AS Id, 'Wanda' AS Name, ' 734-0249' AS PhoneNumber, ' Rocky Mountain House' AS City UNION ALL
 SELECT 97 AS Id, 'Macy' AS Name, ' 1-840-972-2768' AS PhoneNumber, ' Kelowna' AS City UNION ALL
-						       
 SELECT 98 AS Id, 'Meredith' AS Name, ' 1-321-199-7743' AS PhoneNumber, ' Kapolei' AS City UNION ALL
-SELECT 99 AS Id, 'Ivory' AS Name, ' 1-389-296-7131' AS PhoneNumber, ' Orsara di Puglia' AS City
+SELECT 99 AS Id, 'Ivory' AS Name, ' 1-389-296-7131' AS PhoneNumber, ' Orsara di Puglia' AS City UNION ALL
+
+SELECT 100 AS Id, 'Ivory' AS Name, ' 1-389-296-7131' AS PhoneNumber, ' Orsara di Puglia' AS City UNION ALL
+SELECT 101 AS Id, 'Ivory' AS Name, ' 1-389-296-7131' AS PhoneNumber, ' Orsara di Puglia' AS City UNION ALL
+SELECT 102 AS Id, 'Ivory' AS Name, ' 1-389-296-7131' AS PhoneNumber, ' Orsara di Puglia' AS City UNION ALL
+SELECT 103 AS Id, 'Ivory' AS Name, ' 1-389-296-7131' AS PhoneNumber, ' Orsara di Puglia' AS City 
+
+						       
 
 
  BEGIN TRY
