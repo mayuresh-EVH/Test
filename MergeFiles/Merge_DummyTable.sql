@@ -11,8 +11,8 @@ CREATE TABLE #DummyTable
 )
 INSERT INTO #DummyTable ([Id], [Name], [PhoneNumber], [City])
 
-SELECT 1 AS Id, 'Kiayada' AS Name, ' 1-542-409-6032' AS PhoneNumber, ' Hyères' AS City UNION ALL
-SELECT 2 AS Id, 'Risa' AS Name, ' 369-5600' AS PhoneNumber, ' Titagarh , New York' AS City UNION ALL
+SELECT 1 AS Id, 'Kiayada' AS Name, ' 1-542-409-6032' AS PhoneNumber, 'Bhopal' AS City UNION ALL
+SELECT 2 AS Id, 'Risa' AS Name, ' 369-5600' AS PhoneNumber, ' Titagarh #@$% New York' AS City UNION ALL
 SELECT 3 AS Id, 'Sacha' AS Name, ' 1-210-484-7643' AS PhoneNumber, ' Hualaihué' AS City UNION ALL
 SELECT 4 AS Id, 'Teaga' AS Name, ' 364-6577' AS PhoneNumber, ' Paradise' AS City UNION ALL
 SELECT 5 AS Id, 'Gail' AS Name, ' 868-1524' AS PhoneNumber, ' Moio Alcantara' AS City UNION ALL
@@ -108,9 +108,13 @@ SELECT 94 AS Id, 'Lacey' AS Name, ' 361-8149' AS PhoneNumber, ' Noduwez' AS City
 SELECT 95 AS Id, 'Lesley' AS Name, ' 1-229-157-7490' AS PhoneNumber, ' Würzburg' AS City UNION ALL
 SELECT 96 AS Id, 'Wanda' AS Name, ' 734-0249' AS PhoneNumber, ' Rocky Mountain House' AS City UNION ALL
 SELECT 97 AS Id, 'Macy' AS Name, ' 1-840-972-2768' AS PhoneNumber, ' Kelowna' AS City UNION ALL
-						       
 SELECT 98 AS Id, 'Meredith' AS Name, ' 1-321-199-7743' AS PhoneNumber, ' Kapolei' AS City UNION ALL
-SELECT 99 AS Id, 'Ivory' AS Name, ' 1-389-296-7131' AS PhoneNumber, ' Orsara di Puglia' AS City
+SELECT 99 AS Id, 'Ivory' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Kolkata' AS City UNION ALL
+
+SELECT 100 AS Id, 'Mayur' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Mumbai' AS City UNION ALL
+SELECT 101 AS Id, 'Ibrahim' AS Name, ' 1-389-296-7132' AS PhoneNumber, 'Mumbai' AS City 
+
+						       
 
 
  BEGIN TRY
