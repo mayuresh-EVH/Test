@@ -11,7 +11,7 @@ CREATE TABLE #DummyTable
 )
 INSERT INTO #DummyTable ([Id], [Name], [PhoneNumber], [City])
 
-
+SELECT 1 AS Id, 'Kiayada' AS Name, ' 1-542-409-6032' AS PhoneNumber, ' Hyères' AS City
 
  BEGIN TRY
 	
