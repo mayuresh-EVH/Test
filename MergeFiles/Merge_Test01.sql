@@ -1,15 +1,15 @@
-IF OBJECT_ID('tempdb..#DummyTable') IS NOT NULL 
-	DROP TABLE #DummyTable
+IF OBJECT_ID('tempdb..#Test01') IS NOT NULL 
+	DROP TABLE #Test01
 
 --Create Source Table structure the same as Target Table structure
-CREATE TABLE #DummyTable
+CREATE TABLE #Test01
 (
 	Id	int NOT NULL,
 	Name	    varchar(255) NULL,
 	PhoneNumber			varchar(100) NOT NULL,
 	[City]		varchar(255) NOT NULL
 )
-INSERT INTO #DummyTable ([Id], [Name], [PhoneNumber], [City])
+INSERT INTO #Test01 ([Id], [Name], [PhoneNumber], [City])
 
 SELECT 1 AS Id, 'Kiayada' AS Name, ' 1-542-409-6032' AS PhoneNumber, ' Hyères' AS City UNION ALL
 SELECT 2 AS Id, 'Risa' AS Name, ' 369-5600' AS PhoneNumber, ' Titagarh , New York' AS City UNION ALL
@@ -124,8 +124,8 @@ SELECT 103 AS Id, 'Akhay' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Bombay' AS
 	BEGIN TRANSACTION
 	
 	--Merge tables by joining on the column(s) which uniquely identify each record
-	MERGE  Test.DummyTable AS TARGET
-	USING #DummyTable AS SOURCE
+	MERGE  Test.Test01 AS TARGET
+	USING #Test01 AS SOURCE
 		ON (TARGET.Id = SOURCE.Id ) 
 	--Update specific columns of matching records between source table and target table
 	WHEN MATCHED AND (TARGET.Id <> SOURCE.Id)
@@ -163,7 +163,7 @@ SELECT 103 AS Id, 'Akhay' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Bombay' AS
 	--	END 
 		
 	COMMIT TRANSACTION
-	PRINT 'MERGE Usermgmt.ClientApp - Done'
+	PRINT 'MERGE Usermgmt.Test01 - Done'
 END TRY
 
 BEGIN CATCH
