@@ -114,11 +114,17 @@ SELECT 100 AS Id, 'Mayur' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Mumbai' AS
 SELECT 101 AS Id, 'Ibrahim' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Banglore' AS City UNION ALL
 SELECT 102 AS Id, 'Narender' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Jaipure' AS City UNION ALL
 SELECT 103 AS Id, 'Akhay' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Bombay' AS City  UNION ALL
-
 SELECT 104 AS Id, 'Mayur' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Mumbai' AS City  UNION ALL
 SELECT 105 AS Id, 'Ibrahim' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Banglore' AS City  UNION ALL
 SELECT 106 AS Id, 'Narender' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Jaipure' AS City  UNION ALL
-SELECT 107 AS Id, 'Akhay' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Bombay' AS City  
+SELECT 107 AS Id, 'Akhay' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Bombay' AS City   UNION ALL
+
+SELECT 108 AS Id, 'Mayur' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Mumbai' AS City   UNION ALL
+SELECT 109 AS Id, 'Ibrahim' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Banglore' AS City   UNION ALL
+SELECT 110 AS Id, 'Narender' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Jaipure' AS City   UNION ALL
+SELECT 111 AS Id, 'Akhay' AS Name, ' 1-389-296-7131' AS PhoneNumber, 'Bombay' AS City   
+
+
 
 
 
